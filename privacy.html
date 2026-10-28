@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー - ETC利用証明書 Drive保管</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.7; color: #222; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.15rem; margin-top: 28px; }
+  a { color: #0b57d0; }
+  footer { margin-top: 40px; font-size: 0.9rem; color: #666; }
+</style>
+</head>
+<body>
+<h1>プライバシーポリシー</h1>
+<p>「ETC利用証明書 Drive保管」(以下「本アプリ」)は、V Limousine の業務のために運用している社内向けツールです。
+本アプリが Google アカウントのデータをどのように扱うかを以下に定めます。</p>
+
+<h2>1. 取得する情報</h2>
+<p>本アプリは Google OAuth を通じて、利用者自身の Google ドライブへのアクセス権(<code>https://www.googleapis.com/auth/drive</code>)の許可を求めます。
+アクセスするのは、利用者が指定した保管用フォルダ配下のファイル(ETC 利用証明書 PDF、台帳 CSV、カードマスタ CSV)に限ります。</p>
+
+<h2>2. 利用目的</h2>
+<ul>
+  <li>ETC利用照会サービスから発行した利用証明書 PDF を、指定フォルダへ保存すること</li>
+  <li>保存済みの走行を記録した台帳ファイルを読み書きし、重複発行を防ぐこと</li>
+</ul>
+<p>上記以外の目的で Google ドライブのデータを読み取り、保存、転送することはありません。</p>
+
+<h2>3. 第三者への提供</h2>
+<p>Google ドライブから取得した情報を第三者に提供、販売、共有することはありません。
+Google API から取得した情報の利用は、<a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API サービスのユーザーデータに関するポリシー</a>(限定使用の要件を含む)に従います。</p>
+
+<h2>4. データの保管と保護</h2>
+<p>OAuth の認証トークンは、本アプリを実行するための暗号化された設定領域(GitHub Actions の Secrets)にのみ保管し、公開リポジトリやログには記録しません。
+証明書 PDF と台帳は利用者自身の Google ドライブ内に保存され、本アプリの運営者が別途保持することはありません。</p>
+
+<h2>5. アクセス権の取り消し</h2>
+<p>利用者は <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google アカウントの「サードパーティ製のアプリとサービス」</a>からいつでも本アプリのアクセス権を取り消せます。</p>
+
+<h2>6. 改定</h2>
+<p>本ポリシーを変更する場合は、このページで公開します。</p>
+
+<footer>制定日: 2026年10月28日<br>運営者連絡先: v.teraguchi@gmail.com</footer>
+</body>
+</html>
